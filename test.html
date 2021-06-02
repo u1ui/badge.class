@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang=en>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>u1-ico Test</title>
+
+        <link rel=stylesheet href="https://cdn.jsdelivr.net/gh/u1ui/base.css/full.min.css">
+
+        <link rel=stylesheet href="https://cdn.jsdelivr.net/gh/u1ui/classless.css/variables.min.css">
+        <link rel=stylesheet href="https://cdn.jsdelivr.net/gh/u1ui/classless.css/variables.more.min.css">
+        <link rel=stylesheet href="https://cdn.jsdelivr.net/gh/u1ui/classless.css/classless.min.css">
+        <link rel=stylesheet href="https://cdn.jsdelivr.net/gh/u1ui/classless.css/simple.min.css">
+        <link rel=stylesheet href="https://cdn.jsdelivr.net/gh/u1ui/classless.css/more.min.css">
+
+        <link rel=stylesheet href="./badge.css">
+<body>
+
+    <section id=u1-badge>
+        <h2>.u1-badge</h2>
+
+        <h3>No Content</h3>
+        <div>
+            ✉<sup class=u1-badge style="background-color:var(--color-red)"></sup>
+            ♞<sup class=u1-badge style="background-color:var(--color-red)"></sup>
+        </div>
+
+        <h3>Using span</h3>
+        <div>
+          <span class=u1-badge>done</span>
+          <span class=u1-badge>todog</span>
+          <span class="u1-badge">warn</span>
+        </div>
+
+        <h3>Using small</h3>
+        <div>
+          Here: <small class=u1-badge>done</small>
+          <small class=u1-badge>done</small>
+        </div>
+
+        <h3>Colorize</h3>
+        <div>
+            <small class=u1-badge style="background-color:var(--color-red)">red</small>
+            <small class=u1-badge style="background-color:var(--color-green)">green</small>
+            <small class=u1-badge style="background-color:var(--color-yellow)">yellow</small>
+            <small class=u1-badge style="background-color:var(--color-orange)">oragne</small>
+            <small class=u1-badge style="background-color:var(--color-blue)">blue</small>
+        </div>
+
+        <h3>Using sup</h3>
+        <p>
+          <sup class=u1-badge>pro tip ★</sup> show here
+        </p>
+        <p>
+          E-mails <sup class=u1-badge>3</sup>
+        </p>
+
+        <h3>Breaks</h3>
+        <p style="max-width:200px">
+          <small class=u1-badge>super long badge containing more words</small>
+        </p>
+
+        <h3>Combining</h3>
+        <p style="max-width:200px">
+          <button>
+            Notifications
+            <small class=u1-badge>5</small>
+          </button>
+          <h1>
+            Heading
+            <small class=u1-badge>5</small>
+          </h1>
+          <h1>
+            Heading using sup
+            <sup class=u1-badge>5</sup>
+          </h1>
+        </p>
+      </section>

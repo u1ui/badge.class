@@ -1,0 +1,31 @@
+.u1-badge {
+    background-color:var(--color-dark);
+    color:var(--color-bg);
+
+    display:inline-flex;
+    padding:.2em .6em .2em .6em;
+    border-radius:1em;
+    line-height:1.1;
+    font-weight:normal;
+
+    min-width:  1.6em;
+    min-height: 1.6em;
+    padding: .2em .5em;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+	xbox-decoration-break:clone; /* not needed for inlin-flex */
+    xvertical-align:middle;
+    xmargin-bottom:-.1em;
+    xmargin-top:-.1em;
+    xtransform: scale(0.99999999);
+}
+
+.u1-badge:empty {
+    min-width:  .6em;
+    min-height: .6em;
+    padding:0;
+
+    xmargin-left:-.1em;
+}
