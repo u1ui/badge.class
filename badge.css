@@ -6,6 +6,7 @@
     padding:.2em .6em .2em .6em;
     border-radius:1em;
     line-height:1.1;
+    --line-height:1.1;
     font-weight:normal;
 
     min-width:  1.6em;
