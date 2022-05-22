@@ -17,17 +17,18 @@
     align-items: center;
     text-align: center;
 
-	xbox-decoration-break:clone; /* not needed for inlin-flex */
-    xvertical-align:middle;
-    xmargin-bottom:-.1em;
-    xmargin-top:-.1em;
-    xtransform: scale(0.99999999);
+    /*
+	box-decoration-break:clone; /* not needed for inlin-flex * /
+    vertical-align:middle;
+    margin-bottom:-.1em;
+    margin-top:-.1em;
+    transform: scale(0.99999999);
+    */
 }
 
 .u1-badge:empty {
     min-width:  .6em;
     min-height: .6em;
     padding:0;
-
-    xmargin-left:-.1em;
+    /* margin-left:-.1em; */
 }
