@@ -63,7 +63,8 @@
         </p>
 
 
-<h3>Text font-families</h3>
+<h3>Text font-familie properties</h3>
+<p>Ascenders and descenders</p>
 <style contenteditable style="display:block">
 body {
   xfont-family: "Arial", "Helvetica", sans-serif;
@@ -87,3 +88,29 @@ body {
 </style>
 
       </section>
+
+
+      <section>
+        <h2>Pulse (not integrated)</h2>
+        <span class="u1-badge -Pulse" style="--pulse-color:var(--color)">2</span>
+        &nbsp;&nbsp;
+        <span class="u1-badge -Pulse" style="background:red; --pulse-color:red"></span>
+      </section>
+
+      <style contenteditable>
+      .u1-badge.-Pulse {
+        animation: 1.5s ease 0s infinite normal none running pulse;
+      }
+      @keyframes pulse {
+        0% {
+          box-shadow: 0 0 0 0 var(--pulse-color, black);
+        }
+        70% {
+          box-shadow: 0 0 0 0.5rem transparent;
+        }
+        100% {
+          box-shadow: 0 0 0 0 transparent;
+        }
+      }
+    </style>
+  </section>
