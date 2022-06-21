@@ -1,11 +1,6 @@
 # .u1-badge - class
 Rendering badges
 
-## Demos
-
-https://raw.githack.com/u1ui/badge.class/main/tests/minimal.html  
-https://raw.githack.com/u1ui/badge.class/main/tests/test.html
-
 ## Ussage
 
 ```html
@@ -22,10 +17,10 @@ Empty: <sup class=u1-badge style="background-color:red"></sup>
 <link href="https://cdn.jsdelivr.net/gh/u1ui/badge.class@3.0.0/badge.min.css" rel=stylesheet>
 ```
 
-## Demo
+## Demos
 
-https://raw.githack.com/u1ui/badge.class/main/tests/minimal.html  
-https://raw.githack.com/u1ui/badge.class/main/tests/test.html  
+[minimal.html](https://raw.githack.com/u1ui/badge.class/main/tests/minimal.html)  
+[test.html](https://raw.githack.com/u1ui/badge.class/main/tests/test.html)  
 
 ## About
 
