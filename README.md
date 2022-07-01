@@ -11,11 +11,6 @@ Sub: <sub class=u1-badge>Badge</sub>
 Empty: <sup class=u1-badge style="background-color:red"></sup>
 ```
 
-```css
-.u1-badge {
-}
-```
-
 ## Install
 
 ```html
