@@ -11,6 +11,11 @@ Sub: <sub class=u1-badge>Badge</sub>
 Empty: <sup class=u1-badge style="background-color:red"></sup>
 ```
 
+```css
+.u1-badge {
+}
+```
+
 ## Install
 
 ```html
@@ -19,8 +24,8 @@ Empty: <sup class=u1-badge style="background-color:red"></sup>
 
 ## Demos
 
-[minimal.html](https://raw.githack.com/u1ui/badge.class/main/tests/minimal.html)  
-[test.html](https://raw.githack.com/u1ui/badge.class/main/tests/test.html)  
+[minimal.html](http://gcdn.li/u1ui/badge.class@main/tests/minimal.html)  
+[test.html](http://gcdn.li/u1ui/badge.class@main/tests/test.html)  
 
 ## About
 
