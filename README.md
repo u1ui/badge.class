@@ -14,7 +14,7 @@ Empty: <sup class=u1-badge style="background-color:red"></sup>
 ## Install
 
 ```html
-<link href="https://cdn.jsdelivr.net/gh/u1ui/badge.class@3.2.0/badge.min.css" rel=stylesheet>
+<link href="https://cdn.jsdelivr.net/gh/u1ui/badge.class@x.x.x/badge.min.css" rel=stylesheet>
 ```
 
 ## Demos
